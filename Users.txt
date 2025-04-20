@@ -1,2 +1,0 @@
-dato,davita,1234,Male
-davit,davit,da,Male
