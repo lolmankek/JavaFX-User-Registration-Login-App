@@ -99,16 +99,16 @@ If you'd like to explore or query the database manually:
 
 ## 🙌 Credits
 
-- Created by **David**
+- Created by **lolmankek**
 - UI built using JavaFX + SceneBuilder.
 - Database powered by H2.
 
 ---
 ## 📸 Screenshots
-![Login Screen](styles/Authorization.png)
-![Registration Screen](styles/Registration.png)
+
+![Login Screen](https://github.com/lolmankek/javaFX-H2---RegistrtaionForm/blob/master/src/main/resources/styles/Authorization.png?raw=true)
+![Registration Screen](https://github.com/lolmankek/javaFX-H2---RegistrtaionForm/blob/master/src/main/resources/styles/Registration.png?raw=true)
 
 ---
 ## 📎 License
-
 This project is open source and available under the MIT License.
