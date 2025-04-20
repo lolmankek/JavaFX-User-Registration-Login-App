@@ -69,7 +69,7 @@ public class Authorization {
             String password = PasswordField.getText().trim();
 
             if (validateUser(login, password)) {
-                System.out.println("Успешный вход!");
+                System.out.println("Successful login!");
                 AuthorizationButton.getScene().getWindow().hide();
 
                 try {
