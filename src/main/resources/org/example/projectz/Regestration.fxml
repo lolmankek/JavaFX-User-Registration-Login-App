@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="rootB" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="255.0" prefWidth="288.0" styleClass="rootB" stylesheets="@../../../styles/Style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.projectz.Registration">
+    <children>
+        <TextField fx:id="FirstName" alignment="TOP_LEFT" layoutX="42.0" layoutY="38.0" prefHeight="26.0" prefWidth="200.0" promptText="First Name" />
+      <TextField fx:id="LastName" layoutX="42.0" layoutY="76.0" prefHeight="26.0" prefWidth="200.0" promptText="Last Name" />
+      <PasswordField fx:id="EnterPassword" layoutX="42.0" layoutY="132.0" prefHeight="26.0" prefWidth="200.0" promptText="Enter Password" />
+      <PasswordField fx:id="ConfirmPassword" layoutX="42.0" layoutY="165.0" prefHeight="26.0" prefWidth="200.0" promptText="Confirm Password" />
+        <Button fx:id="RegistrationButton" layoutX="42.0" layoutY="209.0" mnemonicParsing="false" onAction="#Registration" prefHeight="26.0" prefWidth="200.0" text="Register" />
+      <CheckBox fx:id="Male_Checkbox" layoutX="64.0" layoutY="107.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="61.0" text="Male" textFill="WHITE" />
+      <CheckBox fx:id="Female_Checkbox" layoutX="143.0" layoutY="107.0" mnemonicParsing="false" text="Female" textFill="WHITE" />
+    </children>
+</AnchorPane>

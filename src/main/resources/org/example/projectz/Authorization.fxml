@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="215.0" prefWidth="292.0" styleClass="root" stylesheets="@../../../styles/Style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.projectz.Authorization">
+   <children>
+      <TextField fx:id="LoginField" alignment="TOP_LEFT" layoutX="42.0" layoutY="38.0" prefHeight="26.0" prefWidth="200.0" promptText="Login" />
+      <PasswordField fx:id="PasswordField" alignment="TOP_LEFT" layoutX="42.0" layoutY="82.0" prefHeight="26.0" prefWidth="200.0" promptText="Password" />
+      <Button fx:id="RegistrationButton" layoutX="43.0" layoutY="125.0" mnemonicParsing="false" onAction="#initialize" text="Registration" />
+      <Button fx:id="AuthorizationButton" layoutX="42.0" layoutY="164.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="200.0" text="Authorization" />
+   </children>
+</AnchorPane>
