@@ -36,3 +36,7 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+### my own project files ###
+src/main/java/org/example/projectz/HomePage.java
+src/main/resources/org/example/projectz/HomePage.fxml
