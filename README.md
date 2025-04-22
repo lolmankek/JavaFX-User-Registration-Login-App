@@ -91,7 +91,7 @@ If you'd like to explore or query the database manually:
 
    |         Field       |       Value       |
    |---------------|-------------------------|
-   | JDBC URL      | jdbc:h2:~/              |
+   | JDBC URL      | jdbc:h2:~/test          |
    | User Name     | sa                      |
    | Password      | (leave empty)           |
 

@@ -28,6 +28,12 @@ public class Authorization {
     @FXML
     private Button RegistrationButton;
 
+    /**
+     * This method makes a SQL query to the users table and checks if there is a user with that name and password.
+     * @param firstName
+     * @param password
+     * @return
+     */
     private boolean validateUser(String firstName, String password) {
         String sql = "SELECT * FROM users WHERE first_name = ? AND password = ?";
 
@@ -38,7 +44,7 @@ public class Authorization {
             pstmt.setString(2, password);
 
             java.sql.ResultSet rs = pstmt.executeQuery();
-            return rs.next();
+            return rs.next(); // if the user is found, return true
 
         } catch (SQLException e) {
             e.printStackTrace();
@@ -50,7 +56,6 @@ public class Authorization {
     void initialize() {
         RegistrationButton.setOnAction(event -> {
             RegistrationButton.getScene().getWindow().hide();
-
             try {
                 FXMLLoader loader = new FXMLLoader(getClass().getResource("Regestration.fxml"));
                 Parent root = loader.load();
